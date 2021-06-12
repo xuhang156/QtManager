@@ -1,0 +1,148 @@
+{
+    "ctrl_flows": [
+        {
+            "dest_step": "{ced23b3f-1318-4082-b5a8-b2f9387eac84}",
+            "src_step": "{1bf8b971-4257-4873-9751-09c35713472e}"
+        },
+        {
+            "dest_step": "{4dec14e2-5752-4da5-858e-d91d56dc9010}",
+            "src_step": "{1bf8b971-4257-4873-9751-09c35713472e}"
+        }
+    ],
+    "data_flows": [
+        {
+            "dest_port": 0,
+            "dest_step": "{435f1716-cdf8-4a60-a0e8-5bf1c7762c39}",
+            "src_port": 0,
+            "src_step": "{1bf8b971-4257-4873-9751-09c35713472e}"
+        },
+        {
+            "dest_port": 1,
+            "dest_step": "{435f1716-cdf8-4a60-a0e8-5bf1c7762c39}",
+            "src_port": 0,
+            "src_step": "{ced23b3f-1318-4082-b5a8-b2f9387eac84}"
+        },
+        {
+            "dest_port": 3,
+            "dest_step": "{435f1716-cdf8-4a60-a0e8-5bf1c7762c39}",
+            "src_port": 0,
+            "src_step": "{4dec14e2-5752-4da5-858e-d91d56dc9010}"
+        },
+        {
+            "dest_port": 2,
+            "dest_step": "{435f1716-cdf8-4a60-a0e8-5bf1c7762c39}",
+            "src_port": 0,
+            "src_step": "{7396eb52-7c31-4863-9048-10ac26918e66}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{7396eb52-7c31-4863-9048-10ac26918e66}",
+            "src_port": 0,
+            "src_step": "{9e1fb733-0644-41ff-a958-282c26a763ba}"
+        },
+        {
+            "dest_port": 0,
+            "dest_step": "{9e1fb733-0644-41ff-a958-282c26a763ba}",
+            "src_port": 0,
+            "src_step": "{1bf8b971-4257-4873-9751-09c35713472e}"
+        }
+    ],
+    "execFlags": 8,
+    "guid": "{064ffcfd-e106-4878-95a9-b6d7f031d780}",
+    "objectName": "test_visionToViz",
+    "parameterTuningLevel": 0,
+    "revision": "49a426ffc 2021-05-18 10:56:35 +0800",
+    "scene_pos": [
+        0,
+        0
+    ],
+    "simplified_steps": [
+    ],
+    "steps": [
+        {
+            "end": 1,
+            "execFlags": 8,
+            "guid": "{4dec14e2-5752-4da5-858e-d91d56dc9010}",
+            "inputType": 0,
+            "numbers": "[25]",
+            "objectName": "快捷创建数值列表_1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                188,
+                -481
+            ],
+            "start": 0,
+            "stepSize": 1,
+            "type": "Easy Create Number List"
+        },
+        {
+            "end": 1,
+            "execFlags": 64,
+            "guid": "{1bf8b971-4257-4873-9751-09c35713472e}",
+            "inputType": 0,
+            "numbers": "[1]",
+            "objectName": "生成ID",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                -179,
+                -807
+            ],
+            "start": 0,
+            "stepSize": 1,
+            "type": "Easy Create Number List"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{7396eb52-7c31-4863-9048-10ac26918e66}",
+            "inputPortNum": 1,
+            "labelFile": "primitiveTypes.json",
+            "objectName": "标签映射_1",
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                17,
+                -484
+            ],
+            "type": "Label Mapping"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{435f1716-cdf8-4a60-a0e8-5bf1c7762c39}",
+            "objectName": "输出_1",
+            "outputKeysJoined": "measuringPointId;holeposition;primitiveType;diameter",
+            "outputType": 0,
+            "parameterTuningLevel": 0,
+            "scene_pos": [
+                -175,
+                -166
+            ],
+            "type": "Procedure Out"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{ced23b3f-1318-4082-b5a8-b2f9387eac84}",
+            "objectName": "读取位姿_1",
+            "parameterTuningLevel": 0,
+            "poseVecFile": "poses.json",
+            "scene_pos": [
+                -105,
+                -610
+            ],
+            "type": "Read Poses"
+        },
+        {
+            "execFlags": 8,
+            "guid": "{9e1fb733-0644-41ff-a958-282c26a763ba}",
+            "objectName": "从任意变量转为标签类型_1",
+            "parameterTuningLevel": 0,
+            "precision": 0,
+            "scene_pos": [
+                88,
+                -643
+            ],
+            "type": "From Variants to Labels"
+        }
+    ],
+    "timestamp": "2021-05-20 10:30:23",
+    "type": "Procedure",
+    "view_type": 0
+}

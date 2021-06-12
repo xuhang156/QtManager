@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>darkstyle.qss</file>
+        <file>left.png</file>
+        <file>right.png</file>
+        <file>icon_checkbox_checked.png</file>
+        <file>icon_checkbox_checked_disabled.png</file>
+        <file>icon_checkbox_checked_pressed.png</file>
+        <file>icon_checkbox_indeterminate.png</file>
+        <file>icon_checkbox_indeterminate_disabled.png</file>
+        <file>icon_checkbox_indeterminate_pressed.png</file>
+        <file>icon_checkbox_unchecked.png</file>
+        <file>icon_checkbox_unchecked_disabled.png</file>
+        <file>icon_checkbox_unchecked_pressed.png</file>
+    </qresource>
+</RCC>

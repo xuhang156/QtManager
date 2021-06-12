@@ -1,0 +1,156 @@
+[
+  {
+    "name": "part_of_measure",
+    "value": [
+      {
+        "step": 1,
+        "version": "datum1_radius"
+      },
+      {
+        "step": 2,
+        "version": "datum2_radius"
+      },
+      {
+        "step": 3,
+        "version": "datum3_radius"
+      },
+      {
+        "step": 4,
+        "version": "datumPosesAndPoses123Calculation"
+      },
+      {
+        "step": 5,
+        "version": "孔1"
+      },
+      {
+        "step": 6,
+        "version": "孔2"
+      },
+      {
+        "step": 7,
+        "version": "孔3"
+      },
+      {
+        "step": 8,
+        "version": "datum4_radius_position"
+      },
+      {
+        "step": 9,
+        "version": "5-1"
+      },
+      {
+        "step": 10,
+        "version": "5-2"
+      },
+      {
+        "step": 11,
+        "version": "孔7-1"
+      },
+      {
+        "step": 12,
+        "version": "孔7-2"
+      },
+      {
+        "step": 13,
+        "version": "孔7-3"
+      },
+      {
+        "step": 14,
+        "version": "孔7-4"
+      },
+      {
+        "step": 15,
+        "version": "孔6-1上"
+      },
+      {
+        "step": 16,
+        "version": "孔6-1下"
+      },
+      {
+        "step": 17,
+        "version": "孔6-2上"
+      },
+      {
+        "step": 18,
+        "version": "孔6-2下"
+      }
+    ]
+  },
+  {
+    "name": "all_measure",
+    "value": [
+      {
+        "step": 1,
+        "version": "datum1_radius"
+      },
+      {
+        "step": 2,
+        "version": "datum2_radius"
+      },
+      {
+        "step": 3,
+        "version": "datum3_radius"
+      },
+      {
+        "step": 4,
+        "version": "datumPosesAndPoses123Calculation"
+      },
+      {
+        "step": 5,
+        "version": "孔1"
+      },
+      {
+        "step": 6,
+        "version": "孔2"
+      },
+      {
+        "step": 7,
+        "version": "孔3"
+      },
+      {
+        "step": 8,
+        "version": "datum4_radius_position"
+      },
+      {
+        "step": 9,
+        "version": "5-1"
+      },
+      {
+        "step": 10,
+        "version": "5-2"
+      },
+      {
+        "step": 11,
+        "version": "孔7-1"
+      },
+      {
+        "step": 12,
+        "version": "孔7-2"
+      },
+      {
+        "step": 13,
+        "version": "孔7-3"
+      },
+      {
+        "step": 14,
+        "version": "孔7-4"
+      },
+      {
+        "step": 15,
+        "version": "孔6-1上"
+      },
+      {
+        "step": 16,
+        "version": "孔6-1下"
+      },
+      {
+        "step": 17,
+        "version": "孔6-2上"
+      },
+      {
+        "step": 18,
+        "version": "孔6-2下"
+      }
+    ]
+  }
+]

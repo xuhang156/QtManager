@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MeasurementResultsSearchWidget</class>
+ <widget class="QWidget" name="MeasurementResultsSearchWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1170</width>
+    <height>634</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btnAccuracyTable">
+       <property name="minimumSize">
+        <size>
+         <width>150</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:checked{
+        background: green;
+}</string>
+       </property>
+       <property name="text">
+        <string>精度表</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btnAccuracyChart">
+       <property name="minimumSize">
+        <size>
+         <width>150</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:checked{
+        background: green;
+}</string>
+       </property>
+       <property name="text">
+        <string>精度图</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btnTrayAccuracyTable">
+       <property name="minimumSize">
+        <size>
+         <width>150</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton:checked{
+        background: green;
+}</string>
+       </property>
+       <property name="text">
+        <string>托盘精度表</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <column>
+      <property name="text">
+       <string>选择</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>序号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>测定日期</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>事件</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>车型</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>制品</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>托盘番号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>合格个数</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>测定个数</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>合格率</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>全测</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>拉开间隔</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="back">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>返回</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="report">
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>输出为报表</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>
